@@ -30,6 +30,7 @@ Go to the backend directory and install the dependencies:
 $ cd backend
 $ yarn install or npm install
 ```
+Note: Disregard the error in husky (postinstall), that will run after the full install is finish. It is used for linting commit messages, running tests, linting code, etc... when commiting or pushing code to repo
 
 Go to the frontend directory and install the dependencies: 
 
@@ -40,7 +41,8 @@ $ yarn install or npm install
 
 ## Project Setup/Configuration
 
-Make sure to copy the `.env.example`/`.env-example` to `.env.development` and fill in the values.
+Make sure to copy the `.env.example`/`.env-example` or rename them to `.env.development` in each sub directories (backend/frontend).
+Note: Env files are not suppose to push in repo but for this case I used `.env.example` and `.env-example` to put the database and mail service credentials
 
 ## Run the BACKEND
 
