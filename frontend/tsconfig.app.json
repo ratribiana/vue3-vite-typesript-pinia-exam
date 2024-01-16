@@ -1,0 +1,39 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["./src/*"],
+      "assets/*": ["./src/assets/*"],
+      "components/*": ["./src/components/*"],
+      "composables/*": ["./src/composables/*"],
+      "directives/*": ["./src/directives/*"],
+      "eventBus/*": ["./src/eventBus/*"],
+      "forms/*": ["./src/forms/*"],
+      "layouts/*": ["./src/layouts/*"],
+      "middlewares/*": ["./src/middlewares/*"],
+      "plugins/*": ["./src/plugins/*"],
+      "router/*": ["./src/router/*"],
+      "services/*": ["./src/services/*"],
+      "stores/*": ["./src/stores/*"],
+      "types/*": ["./src/types/*"],
+      "utils/*": ["./src/utils/*"],
+      "views/*": ["./src/views/*"]
+    }
+  }
+}

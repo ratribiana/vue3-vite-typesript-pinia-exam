@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BaseInput > renders correctly with all props 1`] = `
+"<label for="customInput" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password <small class="required">*</small></label>
+<input name="customInput" type="password" id="customId" placeholder="Enter your password" class="custom-input normal-case" required="">
+<small class="text-red dark:text-[#f78181]"></small>"
+`;

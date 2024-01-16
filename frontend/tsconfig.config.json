@@ -1,0 +1,12 @@
+{
+  "extends": ["@tsconfig/node18/tsconfig.json", "@vue/tsconfig/tsconfig.json"],
+  "include": ["env.d.ts", "vite.config.*", "vitest.config.*", "cypress.config.*", "nightwatch.conf.*", "playwright.config.*"],
+  "compilerOptions": {
+    "composite": true,
+    "target": "ESNext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "useUnknownInCatchVariables": false
+  }
+}
