@@ -17,6 +17,13 @@ Note: Please Read README.md inside subdirectories for best practices and feature
 
 ## ⚒ How to Install
 
+Clone the repo:
+
+```bash
+$ git clone --depth 1 git@github.com:ratribiana/vue3-vite-typesript-pinia-exam.git
+$ cd vue3-vite-typesript-pinia-exam
+```
+
 Go to the backend directory and install the dependencies:
 
 ```bash
