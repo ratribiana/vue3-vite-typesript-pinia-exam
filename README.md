@@ -56,7 +56,7 @@ yarn build
 yarn test
 ```
 
-### To add seed data directly to database just follow this format ()
+### To add seed data directly to database just follow this format
 
 ```sh
 yarn seed ${model} <number> [type(optional)] [role(optional)]
@@ -95,4 +95,11 @@ yarn test:unit
 
 ```sh
 yarn test:e2e:dev
+```
+
+## Once you are setup, you can use these credentials or you can register your own user. The backend API will send you the OTP directly to your email
+
+```bash
+$ test3@mailinator.com
+$ P@ssw0rd01
 ```

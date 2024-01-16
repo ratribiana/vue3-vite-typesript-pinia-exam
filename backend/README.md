@@ -63,7 +63,7 @@ yarn build
 yarn test
 ```
 
-### To add seed data directly to database just follow this format ()
+### To add seed data directly to database just follow this format
 
 ```sh
 yarn seed ${model} <number> [type(optional)] [role(optional)]
